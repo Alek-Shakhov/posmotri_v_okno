@@ -191,7 +191,6 @@ html {
 
 .title {
   font-family: Oswald;
-  position: relative;
   text-transform: uppercase;
   font-size: 75px;
   margin-block-end: 26px;
@@ -200,11 +199,7 @@ html {
 }
 
 .content__accent {
-  position: absolute;
-  content: "";
-  inset: 0;
   color: #545050;
-  z-index: -1;
 }
 
 .content__list {
