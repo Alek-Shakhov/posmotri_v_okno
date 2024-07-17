@@ -216,6 +216,7 @@ html {
   text-decoration: none;
   color: #fff;
   display: block;
+  margin: 3px;
 }
 
 .content__card-link:hover {
@@ -230,7 +231,7 @@ html {
   outline: none;
 }
 
-.content__card0-link:focus-visible {
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
