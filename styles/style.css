@@ -204,10 +204,6 @@ html {
   overflow: auto;
 }
 
-.content__list::-webkit-scrollbar {
-  width: 1px;               
-}
-
 .content__list-item:not(:first-child) {
   margin-block-start: 32px;
 }
@@ -243,7 +239,7 @@ html {
 .content__video-card {
   display: grid;
   inline-size: inherit;
-  block-size: 103px;
+  min-block-size: 103px;
   grid-template-columns: 1fr 194px;
 }
 
@@ -255,7 +251,7 @@ html {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
-  inline-size: 200px;
+  inline-size: 185px;
   text-overflow: ellipsis; 
   white-space: nowrap;
   overflow: hidden;
@@ -277,4 +273,4 @@ html {
 .more-button {
   margin-block-start: 30px;
   inline-size: 100%;
-}
+  }
